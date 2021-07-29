@@ -1,0 +1,56 @@
+
+.app {
+    width: 400px;
+    margin: 100px auto 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.image {
+    width: 400px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.Day-image {
+    background-color: #b7f0f9;
+    transition: background-color 0.5s ease;
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px auto 0;
+}
+
+.Day-ball {
+    background-color: #fff;
+    box-shadow: 0 0 50px yellow, inset 0 0 45px #ffff5d;
+    transition: box-shadow 0.5s ease;
+}
+
+.Night-image {
+    background-color: #1a1a1a;
+    transition: background-color 0.5s ease;
+}
+
+.Night-ball {
+    background-color: lightgray;
+    background-image: url('../images/moon.png');
+    background-size: 100%;
+    box-shadow: 0 0 70px white;
+    transition: box-shadow 0.5s ease;
+}
+
+button {
+    border-radius: 15px;
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+}
